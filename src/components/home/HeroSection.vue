@@ -4,7 +4,7 @@
       <div class="text-center max-w-4xl mx-auto">
         <div class="mb-6 opacity-0 animate-fade-in-up">
           <span class="inline-block px-4 py-2 text-sm font-medium text-primary-400 bg-primary-500/10 rounded-full backdrop-blur-sm">
-            ✨ Digital Craftsman
+            Portofolio Online
           </span>
         </div>
         
@@ -22,8 +22,9 @@
         </div>
         
         <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-12 opacity-0 animate-fade-in-up delay-300">
-          Building exceptional digital experiences with cutting-edge technology.
-          Specialized in creating beautiful, performant, and scalable applications.
+          Saya adalah mahasiswa yang sedang mengembangkan kemampuan di dunia coding dan pemrograman.
+          Saya memiliki impian untuk menjadi developer yang terus belajar, berkembang, dan mampu menciptakan karya serta solusi yang bermanfaat melalui teknologi.
+          Dengan semangat belajar dan rasa ingin tahu yang tinggi, saya terus berusaha meningkatkan skill dan pengalaman saya di bidang ini.
         </p>
         
         <div class="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-in-up delay-400">
@@ -33,7 +34,7 @@
             size="lg"
             class="group"
           >
-            <span>Explore My Work</span>
+            <span>Selengkapnya</span>
             <ArrowRight class="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
           
@@ -42,7 +43,7 @@
             variant="outline" 
             size="lg"
           >
-            Let's Connect
+            Hubungi Saya
           </Button>
         </div>
         
@@ -77,13 +78,12 @@ import { ArrowRight, Github, Twitter, Linkedin, Mail } from 'lucide-vue-next'
 import { useTypingAnimation } from '@/composables/useTypingAnimation'
 import socialLinks from '@/data/socialLinks'
 
-const name = "Alex Rivera" // Ganti dengan nama Anda
-
+const name = "Christian Artha Joshi Purba" 
 const roles = [
-  "Full Stack Developer",
-  "UI/UX Architect",
-  "Tech Entrepreneur",
-  "Open Source Contributor"
+  "Mahasiswa",
+  "Informatika",
+  "Baik Hati",
+  "Rajin Menabung"
 ]
 
 const { currentTypedText } = useTypingAnimation(roles, 100)
@@ -99,7 +99,6 @@ const scrollToContact = () => {
 }
 
 onMounted(() => {
-  // Add scroll animation class
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
