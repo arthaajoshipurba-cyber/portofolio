@@ -4,11 +4,11 @@
       <div class="text-center mb-16">
         <h2 class="text-4xl sm:text-5xl font-bold mb-4">
           <span class="bg-gradient-to-r from-white to-primary-400 bg-clip-text text-transparent">
-            Let's Connect
+            Hubungi saya
           </span>
         </h2>
         <p class="text-gray-400 text-lg max-w-2xl mx-auto">
-          Have a project in mind? Let's bring your ideas to life
+          Punya proyek yang ingin diwujudkan? Mari wujudkan ide-ide Anda.
         </p>
       </div>
       
@@ -22,7 +22,7 @@
                 type="text"
                 required
                 class="w-full px-4 py-3 bg-dark-200 border border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white"
-                placeholder="Your name"
+                placeholder="Nama Lengkap"
               />
             </div>
             <div>
@@ -32,7 +32,7 @@
                 type="email"
                 required
                 class="w-full px-4 py-3 bg-dark-200 border border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white"
-                placeholder="your@email.com"
+                placeholder="email@domain.com"
               />
             </div>
           </div>
@@ -44,7 +44,7 @@
               type="text"
               required
               class="w-full px-4 py-3 bg-dark-200 border border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white"
-              placeholder="What's this about?"
+              placeholder="Masukkan judul"
             />
           </div>
           
@@ -55,7 +55,7 @@
               rows="6"
               required
               class="w-full px-4 py-3 bg-dark-200 border border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors text-white resize-none"
-              placeholder="Tell me about your project..."
+              placeholder="Deskripsi..."
             ></textarea>
           </div>
           
@@ -66,7 +66,7 @@
             class="w-full"
             :disabled="isSubmitting"
           >
-            <span v-if="!isSubmitting">Send Message</span>
+            <span v-if="!isSubmitting">Kirim Pesan</span>
             <div v-else class="flex items-center justify-center gap-2">
               <div class="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
               Sending...
@@ -77,7 +77,7 @@
         <!-- Success Message -->
         <Transition name="fade">
           <div v-if="showSuccess" class="mt-6 p-4 bg-green-500/10 border border-green-500/50 rounded-lg text-center text-green-400">
-            Message sent successfully! I'll get back to you soon.
+            Pesan berhasil terkirim! Saya akan segera menghubungi Anda kembali.
           </div>
         </Transition>
       </div>
