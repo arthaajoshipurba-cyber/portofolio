@@ -14,7 +14,6 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ['vue', 'vue-router', 'pinia'],
-          ui: ['lucide-vue-next'],
           gsap: ['gsap'],
           icons: ['lucide-vue-next'],
         },
