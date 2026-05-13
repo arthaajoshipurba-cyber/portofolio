@@ -1,7 +1,6 @@
 <template>
   <div v-if="isVisible" class="custom-cursor">
     <div ref="cursorRef" class="cursor-dot"></div>
-    <div ref="cursorOutlineRef" class="cursor-outline"></div>
   </div>
 </template>
 
@@ -11,7 +10,6 @@ import gsap from 'gsap'
 
 const isVisible = ref(true)
 const cursorRef = ref<HTMLElement>()
-const cursorOutlineRef = ref<HTMLElement>()
 
 let mouseX = 0
 let mouseY = 0
