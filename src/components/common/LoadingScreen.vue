@@ -10,7 +10,7 @@
         </div>
       </div>
       <p class="mt-8 text-2xl font-light tracking-wider text-white animate-pulse">
-        Loading experience...
+        Memuat...
       </p>
     </div>
   </div>
