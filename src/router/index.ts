@@ -9,8 +9,8 @@ const router = createRouter({
       name: 'home',
       component: HomePage,
       meta: {
-        title: 'Alex Rivera | Full Stack Developer',
-        description: 'Personal portfolio of Alex Rivera - Full Stack Developer specializing in modern web applications'
+        title: 'Christian Artha Joshi Purba - Portofolio',
+        description: 'Portofolio Artha - Mahasiswa USTB'
       }
     },
     {
@@ -28,7 +28,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title as string || 'Alex Rivera | Portfolio'
+  document.title = to.meta.title as string || 'Christian Artha Joshi Purba | Portfolio'
   if (to.meta.description) {
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
