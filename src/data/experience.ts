@@ -1,7 +1,7 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Senior Full Stack Developer',
+    title: 'Joshi Artha Purba',
     company: 'TechCorp Inc.',
     period: '2022 - Present',
     description: 'Leading development of enterprise-scale applications, mentoring junior developers, and architecting cloud-native solutions.',
