@@ -2,12 +2,10 @@
   <header class="fixed top-0 left-0 right-0 z-40 transition-all duration-300" :class="isScrolled ? 'bg-dark/80 backdrop-blur-xl border-b border-gray-800' : 'bg-transparent'">
     <Container>
       <nav class="flex items-center justify-between h-16">
-        <!-- Logo -->
         <a href="#" class="text-2xl font-bold bg-gradient-to-r from-white to-primary-400 bg-clip-text text-transparent">
-          AR
+          ATTCHX
         </a>
         
-        <!-- Desktop Menu -->
         <div class="hidden md:flex items-center gap-8">
           <a
             v-for="item in menuItems"
@@ -20,7 +18,6 @@
           </a>
         </div>
         
-        <!-- Right Actions -->
         <div class="flex items-center gap-4">
           <button
             @click="toggleTheme"
@@ -39,7 +36,6 @@
             <kbd class="px-1.5 py-0.5 bg-dark-300 rounded text-xs">⌘K</kbd>
           </button>
           
-          <!-- Mobile Menu Button -->
           <button
             @click="mobileMenuOpen = !mobileMenuOpen"
             class="md:hidden p-2 rounded-lg hover:bg-dark-200 transition-colors"
@@ -50,7 +46,6 @@
         </div>
       </nav>
       
-      <!-- Mobile Menu -->
       <Transition name="slide-down">
         <div v-if="mobileMenuOpen" class="md:hidden py-4 border-t border-gray-800">
           <div class="flex flex-col gap-3">
@@ -82,10 +77,10 @@ const mobileMenuOpen = ref(false)
 
 const menuItems = [
   { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Experience', href: '#experience' },
-  { label: 'Contact', href: '#contact' }
+  { label: 'Tentang', href: '#about' },
+  { label: 'Foto', href: '#projects' },
+  { label: 'Riwayat Pendidikan', href: '#experience' },
+  { label: 'Hubunngi Saya', href: '#contact' }
 ]
 
 const scrollTo = (href: string) => {
