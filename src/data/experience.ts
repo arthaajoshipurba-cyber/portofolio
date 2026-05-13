@@ -1,34 +1,34 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Joshi Artha Purba',
-    company: 'TechCorp Inc.',
-    period: '2022 - Present',
-    description: 'Leading development of enterprise-scale applications, mentoring junior developers, and architecting cloud-native solutions.',
-    technologies: ['Vue.js', 'Node.js', 'AWS', 'TypeScript', 'MongoDB']
+    title: 'SDN 101998 Silinda',
+    company: 'Sekolah Dasar',
+    period: '2013 - 2019',
+    description: 'Saya menempuh pendidikan dasar di SDN 101998 Silinda.',
+    technologies: ['Silinda', 'Sekolah Dasar']
   },
   {
     id: 2,
-    title: 'Frontend Lead',
-    company: 'StartupX',
-    period: '2020 - 2022',
-    description: 'Built and maintained multiple high-performance web applications, implemented design systems, and optimized for SEO and accessibility.',
-    technologies: ['React', 'Next.js', 'Tailwind', 'GraphQL']
+    title: 'SMP SWASTA Silinda',
+    company: 'Sekolah Menengah Pertama',
+    period: '2019 - 2022',
+    description: 'Saya menempuh pendidikan Sekolah Menengah Pertama di SMP SWASTA Silinda.',
+    technologies: ['Silinda', 'Sekolah Menengah Pertama']
   },
   {
     id: 3,
-    title: 'Software Engineer',
-    company: 'DevStudio',
-    period: '2018 - 2020',
-    description: 'Developed full-stack applications for various clients, collaborated with design teams, and ensured code quality through testing.',
-    technologies: ['JavaScript', 'Python', 'Django', 'PostgreSQL']
+    title: 'SMAN 1 Silinda',
+    company: 'Sekolah Menengah Atas',
+    period: '2022 - 2025',
+    description: 'Saya menempuh pendidikan Sekolah Menengah Atas di SMAN 1 Silinda.',
+    technologies: ['Silinda', 'Sekolah Menengah Atas']
   },
   {
     id: 4,
-    title: 'Freelance Developer',
-    company: 'Self-employed',
-    period: '2017 - 2018',
-    description: 'Worked with small businesses to build their online presence, created custom CMS solutions, and provided technical consulting.',
-    technologies: ['WordPress', 'PHP', 'jQuery', 'Bootstrap']
+    title: 'UNIVERSITAS SATYA TERRA BHINNEKA',
+    company: 'Kuliah',
+    period: '2025 - 2029 (semoga yaa gess wkwk)',
+    description: 'Sedang berkuliah di Universitas Satya Terra Bhinneka - Medan.',
+    technologies: ['Medan', 'Menjadi Mahasiswa']
   }
 ]
