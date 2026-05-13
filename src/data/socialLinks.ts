@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Mail, Instagram } from 'lucide-vue-next'
+import { Github, Mail, Instagram } from 'lucide-vue-next'
 
 export default [
   { name: 'GitHub', url: 'https://github.com/arthaajoshipurba-cyber', icon: Github },
