@@ -3,15 +3,13 @@
     <Container>
       <div class="py-12">
         <div class="flex flex-col md:flex-row justify-between items-center gap-6">
-          <!-- Quote -->
           <div class="text-center md:text-left">
             <p class="text-gray-400 italic max-w-md">
               "{{ currentQuote }}"
             </p>
-            <p class="text-sm text-gray-500 mt-2">— Random wisdom</p>
+            <p class="text-sm text-gray-500 mt-2">— Qoutes random</p>
           </div>
           
-          <!-- Social Links -->
           <div class="flex gap-6">
             <a
               v-for="link in socialLinks"
@@ -25,13 +23,12 @@
             </a>
           </div>
           
-          <!-- Copyright -->
           <div class="text-center md:text-right">
             <p class="text-sm text-gray-500">
-              © {{ currentYear }} Alex Rivera. All rights reserved.
+              © {{ currentYear }} Christian Artha Joshi Purba . All rights reserved.
             </p>
             <p class="text-xs text-gray-600 mt-1">
-              Built with Vue.js & Tailwind CSS
+              Dibuat dengan Vue.js & Tailwind CSS
             </p>
           </div>
         </div>
@@ -42,17 +39,17 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import { Github, Twitter, Linkedin, Mail } from 'lucide-vue-next'
+import { Github, Tiktok, Instagram, Mail } from 'lucide-vue-next'
 import socialLinks from '@/data/socialLinks'
 
 const currentYear = new Date().getFullYear()
 
 const quotes = [
-  "Code is poetry written in logic.",
-  "Design is not just what it looks like, it's how it works.",
-  "Simplicity is the ultimate sophistication.",
-  "Innovation distinguishes between a leader and a follower.",
-  "The only way to do great work is to love what you do."
+  "Keep coding, keep growing.",
+  "Learn, build, fail, repeat.",
+  "Debugging adalah jalan ninja.",
+  "Kopi, musik, dan barisan error.",
+  "Syntax error dikit, mental error banyak."
 ]
 
 const currentQuote = ref(quotes[0])
