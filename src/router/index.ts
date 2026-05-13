@@ -10,7 +10,7 @@ const router = createRouter({
       component: HomePage,
       meta: {
         title: 'Christian Artha Joshi Purba - Portofolio',
-        description: 'Portofolio Artha - Mahasiswa USTB'
+        description: 'Portofolio Artha - Mahasiswa Universitas Satya Terra Bhinekka'
       }
     },
     {
