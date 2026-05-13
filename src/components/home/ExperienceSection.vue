@@ -4,11 +4,11 @@
       <div class="text-center mb-16">
         <h2 class="text-4xl sm:text-5xl font-bold mb-4">
           <span class="bg-gradient-to-r from-white to-primary-400 bg-clip-text text-transparent">
-            Professional Journey
+            Riwayat Sekolah
           </span>
         </h2>
         <p class="text-gray-400 text-lg max-w-2xl mx-auto">
-          A timeline of my career milestones and achievements
+          Perjalanan hingga berada di titik sekarang
         </p>
       </div>
       
