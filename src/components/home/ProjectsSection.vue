@@ -3,14 +3,13 @@
     <Container>
       <div class="text-center mb-16">
         <h2 class="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-          Featured Projects
+          Tentang Artha
         </h2>
         <p class="text-gray-400 text-lg max-w-2xl mx-auto">
-          Crafting digital experiences that push boundaries and define new standards
+          Berisi foto - foto tentang Artha.
         </p>
       </div>
       
-      <!-- Filter Buttons -->
       <div class="flex flex-wrap gap-3 justify-center mb-12">
         <button
           v-for="category in categories"
@@ -25,7 +24,6 @@
         </button>
       </div>
       
-      <!-- Projects Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectCard
           v-for="project in filteredProjects"
