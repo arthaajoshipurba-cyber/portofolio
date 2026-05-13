@@ -16,7 +16,7 @@
         <form @submit.prevent="handleSubmit" class="space-y-6">
           <div class="grid md:grid-cols-2 gap-6">
             <div>
-              <label class="block text-sm font-medium text-gray-300 mb-2">Name</label>
+              <label class="block text-sm font-medium text-gray-300 mb-2">Nama</label>
               <input
                 v-model="form.name"
                 type="text"
@@ -38,7 +38,7 @@
           </div>
           
           <div>
-            <label class="block text-sm font-medium text-gray-300 mb-2">Subject</label>
+            <label class="block text-sm font-medium text-gray-300 mb-2">Subjek</label>
             <input
               v-model="form.subject"
               type="text"
@@ -49,7 +49,7 @@
           </div>
           
           <div>
-            <label class="block text-sm font-medium text-gray-300 mb-2">Message</label>
+            <label class="block text-sm font-medium text-gray-300 mb-2">Isi</label>
             <textarea
               v-model="form.message"
               rows="6"
@@ -69,7 +69,7 @@
             <span v-if="!isSubmitting">Kirim Pesan</span>
             <div v-else class="flex items-center justify-center gap-2">
               <div class="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-              Sending...
+              Mengirim...
             </div>
           </Button>
         </form>
