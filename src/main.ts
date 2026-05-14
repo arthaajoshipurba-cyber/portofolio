@@ -11,7 +11,6 @@ const pinia = createPinia()
 app.use(pinia)
 app.use(router)
 
-// Global error handler
 app.config.errorHandler = (err, vm, info) => {
   console.error('Global error:', err, info)
 }
