@@ -2,10 +2,8 @@
   <Teleport to="body">
     <Transition name="fade">
       <div v-if="isOpen" class="fixed inset-0 z-50">
-        <!-- Backdrop -->
         <div class="absolute inset-0 bg-black/80 backdrop-blur-sm" @click="$emit('close')"></div>
         
-        <!-- Modal -->
         <div class="relative min-h-screen flex items-center justify-center p-4">
           <div class="w-full max-w-2xl bg-dark-100 rounded-2xl shadow-2xl border border-gray-800 overflow-hidden">
             <!-- Search Input -->
@@ -25,7 +23,7 @@
               </div>
             </div>
             
-            <!-- Results -->
+            
             <div class="max-h-96 overflow-y-auto">
               <div v-if="filteredCommands.length === 0" class="p-8 text-center text-gray-400">
                 No commands found
@@ -97,7 +95,6 @@ const scrollTo = (sectionId: string) => {
 }
 
 const toggleTheme = () => {
-  // Theme toggle logic
   emit('close')
 }
 
@@ -108,7 +105,6 @@ const executeCommand = (command?: any) => {
   }
 }
 
-// Keyboard navigation
 const handleKeydown = (e: KeyboardEvent) => {
   if (e.key === 'ArrowDown') {
     e.preventDefault()
