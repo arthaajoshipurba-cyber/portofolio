@@ -2,10 +2,9 @@
   <div 
     class="group relative bg-gradient-to-br from-dark-100 to-dark rounded-2xl overflow-hidden transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-primary-500/20"
   >
-    <!-- Glow Effect -->
     <div class="absolute inset-0 bg-gradient-to-r from-primary-500/0 via-primary-500/10 to-purple-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
     
-    <!-- Image Container -->
+    
     <div class="relative overflow-hidden h-48">
       <img 
         :src="project.image" 
@@ -15,7 +14,6 @@
       <div class="absolute inset-0 bg-gradient-to-t from-dark to-transparent opacity-60"></div>
     </div>
     
-    <!-- Content -->
     <div class="relative p-6">
       <div class="flex flex-wrap gap-2 mb-3">
         <span 
