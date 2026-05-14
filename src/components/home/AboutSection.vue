@@ -2,7 +2,6 @@
   <Section id="about" class="py-24">
     <Container>
       <div class="grid lg:grid-cols-2 gap-12 items-center">
-        <!-- Left Column -->
         <div class="space-y-6">
           <h2 class="text-4xl sm:text-5xl font-bold">
             <span class="bg-gradient-to-r from-white to-primary-400 bg-clip-text text-transparent">
@@ -18,7 +17,6 @@
             </p>
           </div>
           
-          <!-- Stats -->
           <div class="grid grid-cols-3 gap-4 pt-6">
             <div class="text-center">
               <div class="text-3xl font-bold text-primary-400">7</div>
@@ -35,7 +33,6 @@
           </div>
         </div>
         
-        <!-- Right Column - Skills -->
         <div>
           <h3 class="text-2xl font-bold mb-6">Kemampuan</h3>
           <div class="flex flex-wrap gap-3">
