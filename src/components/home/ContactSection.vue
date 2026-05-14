@@ -74,7 +74,7 @@
           </Button>
         </form>
         
-        <!-- Success Message -->
+      
         <Transition name="fade">
           <div v-if="showSuccess" class="mt-6 p-4 bg-green-500/10 border border-green-500/50 rounded-lg text-center text-green-400">
             Pesan berhasil terkirim! Saya akan segera menghubungi Anda kembali.
@@ -104,7 +104,7 @@ const showSuccess = ref(false)
 const handleSubmit = async () => {
   isSubmitting.value = true
   
-  // Simulate API call
+  
   await new Promise(resolve => setTimeout(resolve, 1500))
   
   console.log('Form submitted:', form.value)
@@ -112,10 +112,10 @@ const handleSubmit = async () => {
   isSubmitting.value = false
   showSuccess.value = true
   
-  // Reset form
+ 
   form.value = { name: '', email: '', subject: '', message: '' }
   
-  // Hide success message after 5 seconds
+ 
   setTimeout(() => {
     showSuccess.value = false
   }, 5000)
