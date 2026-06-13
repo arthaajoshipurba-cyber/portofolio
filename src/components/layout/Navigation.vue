@@ -3,7 +3,7 @@
     <Container>
       <nav class="flex items-center justify-between h-16">
         <a href="#" class="text-2xl font-bold bg-gradient-to-r from-white to-primary-400 bg-clip-text text-transparent">
-          ATTCHX
+          Attchx
         </a>
         
         <div class="hidden md:flex items-center gap-8">
