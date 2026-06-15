@@ -3,7 +3,7 @@
     <Container>
       <nav class="flex items-center justify-between h-16">
         <a href="#" class="text-2xl font-bold bg-gradient-to-r from-white to-primary-400 bg-clip-text text-transparent">
-          Attchx
+          ATTCHX
         </a>
         
         <div class="hidden md:flex items-center gap-8">
@@ -80,7 +80,7 @@ const menuItems = [
   { label: 'Tentang', href: '#about' },
   { label: 'Foto', href: '#projects' },
   { label: 'Riwayat Pendidikan', href: '#experience' },
-  { label: 'Hubunngi Saya', href: '#contact' }
+  { label: 'Hubungi Saya', href: '#contact' }
 ]
 
 const scrollTo = (href: string) => {
