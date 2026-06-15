@@ -3,10 +3,10 @@
     <Container>
       <div class="text-center mb-16">
         <h2 class="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-          Tentang Artha
+          Pencapaian Artha
         </h2>
         <p class="text-gray-400 text-lg max-w-2xl mx-auto">
-          Berisi foto - foto tentang Artha.
+          Berisi foto - foto Pencapaian Arthass.
         </p>
       </div>
       
