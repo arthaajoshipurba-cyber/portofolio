@@ -6,7 +6,7 @@
           Pencapaian Artha
         </h2>
         <p class="text-gray-400 text-lg max-w-2xl mx-auto">
-          Berisi foto - foto Pencapaian Arthass.
+          Berisi foto - foto Pencapaian Artha.
         </p>
       </div>
       
