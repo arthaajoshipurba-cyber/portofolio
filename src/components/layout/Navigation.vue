@@ -77,10 +77,10 @@ const mobileMenuOpen = ref(false)
 
 const menuItems = [
   { label: 'Home', href: '#home' },
-  { label: 'Tentang', href: '#about' },
-  { label: 'Foto', href: '#projects' },
-  { label: 'Riwayat Pendidikan', href: '#experience' },
-  { label: 'Hubungi Saya', href: '#contact' }
+  { label: 'About', href: '#about' },
+  { label: 'Achievement', href: '#projects' },
+  { label: 'Edu Background', href: '#experience' },
+  { label: 'Contact', href: '#contact' }
 ]
 
 const scrollTo = (href: string) => {
