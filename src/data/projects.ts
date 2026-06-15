@@ -9,7 +9,7 @@ export const projects = [
     github: "https://github.com/arthaajoshipurba-cyber/portofolio",
     liveDemo: "https://arthajoshii.vercel.app/"
   }
- {
+  {
     id: 2,
     title: "Portofolio Artha",
     description: "Portofolio Artha",
